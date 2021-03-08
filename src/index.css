@@ -1,0 +1,10 @@
+body {
+  background-color: #03071e;
+}
+
+* {
+  margin: 0;
+  font-family: sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
