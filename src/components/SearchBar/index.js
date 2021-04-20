@@ -24,7 +24,7 @@ class SeachBar extends React.Component {
         return (
             <div className="container">
                 <form onSubmit={this.onFormSubmit}>
-                    <input className="input" type="Text" value={this.state.searchQ} placeholder={this.props.text} onChange={this.inputChange} />
+                    <input className="input" type="Text" value={this.state.searchQ} placeholder="e.g. Programmer" onChange={this.inputChange} />
                     <button className="submit-btn" type="submit">Search</button>
                     <div className="filters">
                         <ul>
